@@ -3,7 +3,7 @@
 SELECT
  week AS week,
  term AS Top_Term,
- region = region
+ region AS region
  rank
 FROM `bigquery-public-data.google_trends.top_terms`
 WHERE
